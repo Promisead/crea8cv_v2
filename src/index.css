@@ -1,0 +1,44 @@
+@import './custom-scrollbar.css';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* For WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 8px; /* Adjust the width as needed */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Background color of the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #2166EB, #1A4DB8); /* Gradient color */
+  border-radius: 10px; /* Rounded corners */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #1A4DB8, #2166EB); /* Gradient color on hover */
+}
+
+/* For Firefox */
+html {
+  scrollbar-width: thin; /* Make scrollbar thin */
+  scrollbar-color: linear-gradient(180deg, #2166EB, #1A4DB8) #f1f1f1; /* Gradient color and track color */
+}
+
+
+
+

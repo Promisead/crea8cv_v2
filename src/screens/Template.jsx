@@ -167,7 +167,7 @@ const Dashboard = () => {
           <Nav className="flex-column">
             <Nav.Link
               onClick={() => {
-                window.location.href = dashboardUrl;
+                window.location.href ="https://ai-cv2.vercel.app/dashboard";
               }}
               className={`text-white ${activeTab === "myCVs" ? "active" : ""}`}
             >

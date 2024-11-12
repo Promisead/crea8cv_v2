@@ -74,8 +74,8 @@ const Dashboard = () => {
     }
   };
 
-  const dashboardUrl = process.env.REACT_APP_AI_DASHBOARD_URL;
-
+  //const dashboardUrl = process.env.REACT_APP_AI_DASHBOARD_URL;
+const dashboardUrl = "https://crea8cv-v3.vercel.app"
   const renderContent = () => {
     return (
       <main className="bg-white p-4">

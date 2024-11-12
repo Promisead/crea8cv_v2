@@ -527,11 +527,11 @@ const PricingSection = () => {
   }, []);
 
   return (
-    <section id="pricing" className="py-8 bg-light-blue">
+    <section id="pricing" className="py-8 bg-light">
       <div className="container">
         <div className="row section-title text-center mb-5" data-aos="fade-up">
           <div className="col-12">
-            <h2 className="display-5 text-white fw-bold">Choose Your Plan</h2>
+            <h2 className="display-5 text-custom fw-bold">Choose Your Plan</h2>
             <p className="text-light fs-4 mt-3">
               Select the perfect plan that suits your needs.
             </p>
